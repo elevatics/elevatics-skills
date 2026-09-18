@@ -1,6 +1,6 @@
 # Data required from the user
 
-Ask the user to provide as much of the following as possible before generating the slide:
+Ask the user to provide as much of the following as possible before generating the image:
 
 * **Product name + logo**
   Example: `Spotify`
@@ -37,6 +37,6 @@ Ask the user to provide as much of the following as possible before generating t
 
 * **1–2 product screenshots**
 
-* **Optional:** live URL, GitHub URL, brand colors, reference slide/design.
+* **Optional:** live URL, GitHub URL, brand colors, reference image/design.
 
-Never invent data the user didn't supply — especially metrics. If a field is missing, omit that element from the slide rather than fabricating a value.
+Never invent data the user didn't supply — especially metrics. If a field is missing, omit that element from the image rather than fabricating a value.

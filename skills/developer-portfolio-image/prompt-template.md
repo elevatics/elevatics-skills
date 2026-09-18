@@ -1,14 +1,14 @@
 # Universal Developer Portfolio Infographic Prompt
 
-> Create a polished **16:9 developer portfolio infographic slide** for the application described below.
+> Create a polished **16:9 developer portfolio infographic image** for the application described below.
 >
-> The slide should communicate three things immediately:
+> The image should communicate three things immediately:
 >
 > **1. What the product does**
 > **2. How the system works**
 > **3. What technologies power it**
 >
-> Design it as a professional **product + engineering portfolio slide**, not as a marketing poster or detailed system-design document.
+> Design it as a professional **product + engineering portfolio image**, not as a marketing poster or detailed system-design document.
 >
 > ---
 >
@@ -158,7 +158,7 @@
 >
 > ---
 >
-> # MAIN SLIDE STRUCTURE
+> # MAIN IMAGE STRUCTURE
 >
 > Use approximately **three major visual sections**.
 >
@@ -245,7 +245,7 @@
 >
 > ## 3. Product Experience
 >
-> Make this the **largest section on the slide**.
+> Make this the **largest section in the image**.
 >
 > Show a simplified version of the actual application inside an appropriate device or application frame.
 >
@@ -310,7 +310,7 @@
 >
 > # TECH STACK BAR
 >
-> Place a clean horizontal **Tech stack** section across the bottom of the slide.
+> Place a clean horizontal **Tech stack** section across the bottom of the image.
 >
 > Group technologies logically.
 >
@@ -446,7 +446,7 @@
 >
 > # FINAL QUALITY TARGET
 >
-> The finished slide should look appropriate for:
+> The finished image should look appropriate for:
 >
 > **Developer portfolio · LinkedIn project showcase · Engineering case study · Product architecture deck**
 >
