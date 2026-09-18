@@ -45,6 +45,19 @@ Instructions for Claude...
 - One skill = one folder = one clear responsibility
 - Avoid overlapping trigger conditions between skills
 
+## Universal / cross-agent compatibility
+
+`SKILL.md` is not Claude-specific — it's the open [Agent Skills](https://agentskills.io) standard, natively supported by 40+ tools including Claude Code, OpenAI Codex, GitHub Copilot, Cursor, Windsurf, Gemini CLI, Goose, and OpenCode. Storing skills this way means they work unmodified across agents without per-platform forks or converters.
+
+This repo also ships a root [`AGENTS.md`](AGENTS.md) — the complementary, always-loaded, repo-wide instruction file read by the same set of tools (Codex, Cursor, Windsurf, etc.), for conventions that shouldn't be gated behind a specific task trigger.
+
+| Standard | Scope | Loaded | Read natively by |
+|---|---|---|---|
+| `skills/<name>/SKILL.md` | One task/procedure | On demand, when `description` matches | Claude, Codex, Cursor, Windsurf, Gemini CLI, Copilot, Goose, OpenCode |
+| `AGENTS.md` | Whole repo | Always | Same tools above (repo-instructions convention) |
+| MCP servers | Tool/data access | Connected at session start | Complementary, not a skill-storage format — MCP gives an agent *hands*, skills give it the *procedure* |
+
 ## Reference
 
-Built on the open [Agent Skills specification](https://github.com/anthropics/skills/blob/main/spec/agent-skills-spec.md) originally developed by Anthropic.
+- [Agent Skills specification](https://github.com/anthropics/skills/blob/main/spec/agent-skills-spec.md) — the open standard this repo follows
+- [agentskills.io](https://agentskills.io) — cross-platform adoption and showcase
